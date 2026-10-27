@@ -2,6 +2,11 @@
 
 基于 **Python 3.9 + OpenCV + PaddleOCR** 的图片车牌识别程序，带 Tkinter 图形界面，也可命令行批量识别。项目包含一套在 CCPD 数据集上可复现的评测流程。
 
+## 下载
+
+Windows 免安装版（内置 PaddleOCR 模型，解压后双击 `车牌识别工具.exe`）：
+[Releases · v3.0](https://github.com/xigu0419/plate-recognition/releases/tag/v3.0)
+
 ## 功能
 
 - 单张图片的车牌定位与识别，输出车牌号、置信度、是否合法
