@@ -1,0 +1,8 @@
+# 智能车牌识别系统 依赖库
+# Python 3.9
+opencv-python==4.6.0.66
+paddlepaddle==2.6.2
+paddleocr==2.7.0.3
+numpy==1.26.4
+Pillow
+pyinstaller

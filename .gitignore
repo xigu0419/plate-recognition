@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.old
+build/
+dist/
+ccpd_data/
+test_images/
+sample_images/
+logs/
+diagnostics/
+错误日志.txt
