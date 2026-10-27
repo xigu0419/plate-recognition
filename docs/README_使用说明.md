@@ -18,7 +18,7 @@
 ### 1. 环境（已经配好了，直接用即可）
 Anaconda 里的 `plate` 环境：
 ```
-C:\Users\19500\.conda\envs\plate\python.exe
+C:\Users\user\.conda\envs\plate\python.exe
 ```
 环境内已安装：Python 3.9、OpenCV 4.6、PaddleOCR 2.7、PaddlePaddle 2.6、Pillow、NumPy。
 
@@ -36,8 +36,8 @@ C:\Users\19500\.conda\envs\plate\python.exe
 
 打开 CMD / PowerShell，输入：
 ```bash
-cd /d D:\CPP\plate_recognition
-C:\Users\19500\.conda\envs\plate\python.exe plate_recognition.py
+cd /d D:\plate_recognition
+C:\Users\user\.conda\envs\plate\python.exe plate_recognition.py
 ```
 
 > 三种方式打开的都是同一个图形界面：点「选择图片」→ 选车牌照片 → 点「开始识别」。
@@ -46,8 +46,8 @@ C:\Users\19500\.conda\envs\plate\python.exe plate_recognition.py
 
 把图片拖到 `识别车牌.bat` 上，或者：
 ```bash
-cd /d D:\CPP\plate_recognition
-C:\Users\19500\.conda\envs\plate\python.exe plate_recognition.py 图片.jpg
+cd /d D:\plate_recognition
+C:\Users\user\.conda\envs\plate\python.exe plate_recognition.py 图片.jpg
 ```
 输出示例：
 ```
@@ -56,7 +56,7 @@ C:\Users\19500\.conda\envs\plate\python.exe plate_recognition.py 图片.jpg
 ==============================================
 [图片] sample_images\OIP-C.jpg
 [识别到 1 个车牌]
-  1) 鲁Q67858      置信度 95.4%  [合法]
+  1) 京A12345      置信度 95.4%  [合法]
 [标注图] sample_images\OIP-C_result.jpg
 ```
 识别结果图会存成 `图片_result.jpg`（绿框 = 合法车牌，橙框 = 存疑）。
@@ -245,8 +245,8 @@ CCPD 采集自安徽合肥，**96% 的车牌是「皖」开头**。所以模型�
 ## 七、重新打包
 
 ```bash
-cd /d D:\CPP\plate_recognition
-C:\Users\19500\.conda\envs\plate\python.exe build_share.py
+cd /d D:\plate_recognition
+C:\Users\user\.conda\envs\plate\python.exe build_share.py
 ```
 
 打包踩过的坑都写在 `build_share.py` 开头的注释里了，主要有 5 个：

@@ -45,7 +45,7 @@ import subprocess
 import sys
 
 # ============ 配置 ============
-CONDA_ENV = r"C:\Users\19500\.conda\envs\plate"      # conda 环境路径
+CONDA_ENV = r"C:\Users\user\.conda\envs\plate"      # conda 环境路径
 PY = os.path.join(CONDA_ENV, "python.exe")
 LIB_BIN = os.path.join(CONDA_ENV, "Library", "bin")  # conda 的 C 库目录
 PROJECT = os.path.dirname(os.path.abspath(__file__))
